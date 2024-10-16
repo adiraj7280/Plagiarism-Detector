@@ -1,0 +1,36 @@
+.one-vs-one-check {
+    max-width: 64rem; /* equivalent to max-w-4xl */
+    margin: 0 auto;
+    padding: 1.5rem; /* equivalent to p-6 */
+  }
+  
+  .check-card {
+    background-color: white;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 1.5rem; /* equivalent to mb-6 */
+    overflow: hidden;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #3b82f6; /* a primary blue color, adjust as needed */
+    padding: 1rem;
+  }
+  
+  .card-description {
+    text-align: center;
+    color: #4b5563; /* equivalent to text-gray-600 */
+    margin-bottom: 1rem;
+  }
+  
+  .check-content {
+    padding: 1.5rem;
+  }
+  
+  .divider {
+    border-top: 1px solid #e5e7eb; /* equivalent to border-gray-200 */
+    margin: 1.5rem 0;
+  }

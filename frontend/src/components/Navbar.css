@@ -1,0 +1,37 @@
+.navbar {
+  background-color: #242628;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul li {
+  margin: 0 15px;
+}
+
+.navbar ul li a {
+  color: #ecf0f1;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+  background-color: #38393b;
+}
+
+.navbar ul li a svg {
+  margin-right: 8px;
+}

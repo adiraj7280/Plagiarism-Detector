@@ -1,0 +1,32 @@
+.plagiarism-score {
+  margin-top: 2rem;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.plagiarism-score h3 {
+  margin-bottom: 1rem;
+}
+
+.score-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.score-bar {
+  height: 20px;
+  border-radius: 10px;
+}
+
+.score-percentage {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.score-description {
+  font-size: 0.9rem;
+  color: #666;
+}

@@ -1,0 +1,37 @@
+/* src/App.css */
+
+@media (max-width: 600px) {
+  .file-upload, .text-input {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  textarea {
+    height: 150px;
+  }
+}
+
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.content {
+  margin: 20px;
+}
+
+/* Styles for File Upload and Text Input sections */
+.file-upload, .text-input {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
